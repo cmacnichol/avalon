@@ -9,4 +9,4 @@ labels:
 - includeSelectors: true
   pairs:
     app.kubernetes.io/managed-by: argocd
-    dev.stonegarden: app-management
+    dev.macnichol: app-management
