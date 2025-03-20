@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   sourceRepos:
-    - 'git@github.com:cmacnichol/avalon.git'
+    - 'https://github.com/cmacnichol/avalon'
   destinations:
     - namespace: 'argocd'
       server: '*'

@@ -8,7 +8,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: git@github.com:cmacnichol/avalon.git
+        repoURL: https://github.com/cmacnichol/avalon
         revision: HEAD
         directories:
           - path: k8s/apps/external/*
@@ -22,7 +22,7 @@ spec:
     spec:
       project: external
       source:
-        repoURL: git@github.com:cmacnichol/avalon.git
+        repoURL: https://github.com/cmacnichol/avalon
         targetRevision: HEAD
         path: '{{ path }}'
       destination:
